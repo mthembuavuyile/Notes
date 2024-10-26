@@ -390,13 +390,14 @@
 
         /* Hamburger Menu Icon */
         .hamburger-menu {
-            display:grid; /* Hide on larger screens */
-            cursor: pointer;
-            font-size: 1.5rem;
-            background: none;
-            color: #ffffff;
-            border: none;
-        }
+    display: grid;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: none;
+    color: var(--text-primary); /* Dark color for light mode */
+    border: none;
+}
+
 
         /* Media Query for Smaller Screens */
         @media (max-width: 768px) {
